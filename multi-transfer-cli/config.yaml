@@ -1,0 +1,13 @@
+rpc_url: "https://api.devnet.solana.com"
+
+amount: 0.01
+
+source_wallets:
+  - from_keypair_path: "./wallet-keypair.json" # +- 5 SOL are still in the wallet
+    amount: 0.02  # Override amount for this wallet
+  
+  # - from_keypair_path: "~/.config/solana/wallet-keypair2.json"
+    # No amount override, will use default 0.01
+
+destination_wallets:
+  - "9UGeWVYGooGa7WdCdUc5ZCNbDoMKeX6N9SLXYM1qAbKq" 
