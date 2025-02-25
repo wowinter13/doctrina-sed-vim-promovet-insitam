@@ -76,7 +76,7 @@ async fn main() -> Result<()> {
         Commands::GenerateConfig { output } => {
             let sample_config = r#"# Yellowstone Geyser gRPC configuration
 geyser_endpoint: "https://grpc.ny.shyft.to"
-geyser_token: "b2b972c6-fff2-4b5c-aac9-375c6984b80e"
+geyser_token: "YOUR_GEYSER_TOKEN"
 
 # Solana RPC endpoint for sending transactions
 solana_rpc_url: "https://api.mainnet-beta.solana.com"
