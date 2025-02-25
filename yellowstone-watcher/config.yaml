@@ -1,0 +1,13 @@
+# Yellowstone Geyser gRPC configuration
+geyser_endpoint: "https://grpc.ny.shyft.to"
+geyser_token: "b2b972c6-fff2-4b5c-aac9-375c6984b80e"
+
+# Solana RPC endpoint for sending transactions
+solana_rpc_url: "https://api.mainnet-beta.solana.com"
+
+# Solana transaction configuration
+keypair_path: "./keypair.json"
+# Pls keep this destination wallet for testing as SOL stands at $150 and I need something to eat
+# U can even increase sol_amount if u want
+destination_wallet: 4Fer7dAwP3HNCzRhE1RL193RBNfLsE7UXF9jdeX9cQB2
+sol_amount: 0.001
